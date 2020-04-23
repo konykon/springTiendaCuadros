@@ -9,15 +9,15 @@ El client ens demana implementar una API amb Spring amb les seguents funcionalit
 - POST/shops/
 Crear botiga: li direm el nom i la capacitat
 
--GET/shops/
+- GET/shops/
 Llistar botigues: retorna la llista de botigues amb el seu nom i la capacitat
 
--POST/shops/{ID}/pictures
+- POST/shops/{ID}/pictures
 Afegir quadre: li donarem el nom del quadre i el del autor
 
--GET/shops/{ID}/pictures
+- GET/shops/{ID}/pictures
 Llistar els quadres de la botiga
 
--DELETE/shops/{ID}/pictures
+- DELETE/shops/{ID}/pictures
 Incendiar quadres: per si ve la policia, es poden eliminar tots els quadres de la botiga sense deixar rastre.
 
